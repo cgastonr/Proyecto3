@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "61a79a63cc29924a10d5263a"
+  },
+  "limiteCredito": 4499,
+  "fechaapertura": {
+    "$date": "2021-05-20T00:00:00Z"
+  },
+  "fechaPago": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "saldo": 199,
+  "firmante": "raul",
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.TarjetaCredito"
+},{
+  "_id": {
+    "$oid": "61a79c0dcc29924a10d5263d"
+  },
+  "limiteCredito": 7000,
+  "fechaapertura": {
+    "$date": "2021-12-01T00:00:00Z"
+  },
+  "fechaPago": {
+    "$date": "2022-01-01T00:00:00Z"
+  },
+  "firmante": "roxana",
+  "saldo": 7000,
+  "cliente": {
+    "_id": {
+      "$oid": "61a6ce2cf78c28147678d281"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.TarjetaCredito"
+},{
+  "_id": {
+    "$oid": "61a79c51cc29924a10d5263f"
+  },
+  "limiteCredito": 9000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "fechaPago": {
+    "$date": "2021-12-30T00:00:00Z"
+  },
+  "firmante": "roxana",
+  "saldo": 9000,
+  "cliente": {
+    "_id": {
+      "$oid": "61a6ce2cf78c28147678d281"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.TarjetaCredito"
+}]

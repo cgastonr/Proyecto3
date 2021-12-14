@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "ce14675c-f8f5-4e24-86e0-b367fab68868",
+		"name": "Report",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9595/report/delete/61a0ba35d86181631566ad1f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9595/report/delete/61a0ba35d86181631566ad1f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9595",
+					"path": [
+						"report",
+						"delete",
+						"61a0ba35d86181631566ad1f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9595/report/update/61b8db559942fa55c30a30c5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": \"61b8db559942fa55c30a30c5\",\r\n        \"monto_diario\": 178.0,\r\n        \"cuentaC_comision\": 2.0,\r\n        \"idProducto\": {\r\n            \"id\": \"61b8da5f4f48cc54e3165382\"\r\n        }\r\n    },",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9595/report/update/61b8db559942fa55c30a30c5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9595",
+					"path": [
+						"report",
+						"update",
+						"61b8db559942fa55c30a30c5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9595/report/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9595/report/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9595",
+					"path": [
+						"report",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9595/report/61b8dbb59942fa55c30a30c6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9595/report/61b8dbb59942fa55c30a30c6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9595",
+					"path": [
+						"report",
+						"61b8dbb59942fa55c30a30c6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9595/report/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"monto_diario\":\"178\",\r\n   \"cuentaC_comision\":\"2\",\r\n   \"idProducto\": {\r\n            \"id\": \"61b8da5f4f48cc54e3165382\"\r\n        }\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9595/report/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9595",
+					"path": [
+						"report",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

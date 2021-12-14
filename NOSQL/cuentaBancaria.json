@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "61a6e329cc29924a10d52635"
+  },
+  "tipo": "ahorro",
+  "saldo": 150,
+  "mantenimiento": 0,
+  "lim_max_mov_mes": 7,
+  "estado": 1,
+  "fechaApertura": {
+    "$date": "2021-11-25T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.CuentaBancaria"
+},{
+  "_id": {
+    "$oid": "61a6e7bbcc29924a10d52636"
+  },
+  "tipo": "Cuenta corriente",
+  "saldo": 250,
+  "mantenimiento": 4,
+  "lim_max_mov_mes": 0,
+  "estado": 1,
+  "fechaApertura": {
+    "$date": "2021-11-28T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6cde6f78c28147678d280"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.CuentaBancaria"
+},{
+  "_id": {
+    "$oid": "61a701d9cc29924a10d52637"
+  },
+  "tipo": "Plazo fijo",
+  "saldo": 300,
+  "mantenimiento": 0,
+  "lim_max_mov_mes": 1,
+  "estado": 1,
+  "fechaApertura": {
+    "$date": "2021-10-28T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.CuentaBancaria"
+},{
+  "_id": {
+    "$oid": "61a70317cc29924a10d52638"
+  },
+  "tipo": "Cuenta corriente",
+  "saldo": 100,
+  "mantenimiento": 4,
+  "lim_max_mov_mes": 0,
+  "estado": 1,
+  "fechaApertura": {
+    "$date": "2021-11-28T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.CuentaBancaria"
+},{
+  "_id": {
+    "$oid": "61a707dbcc29924a10d52639"
+  },
+  "tipo": "Cuenta corriente",
+  "saldo": 1300,
+  "mantenimiento": 4,
+  "lim_max_mov_mes": 0,
+  "estado": 1,
+  "fechaApertura": {
+    "$date": "2021-11-28T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6cde6f78c28147678d280"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.CuentaBancaria"
+}]

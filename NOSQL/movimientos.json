@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "61b87643065e5410989c052b"
+  },
+  "idProducto": {
+    "_id": "0"
+  },
+  "monto": 103,
+  "fechaRegistro": {
+    "$date": "2021-12-01T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b878b5065e5410989c052c"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a707dbcc29924a10d52639"
+    }
+  },
+  "monto": 175,
+  "fechaRegistro": {
+    "$date": "2021-12-10T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b87908065e5410989c052d"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a701d9cc29924a10d52637"
+    }
+  },
+  "monto": 95,
+  "fechaRegistro": {
+    "$date": "2021-12-11T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b87923065e5410989c052e"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "monto": 85,
+  "fechaRegistro": {
+    "$date": "2021-12-12T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b87a03065e5410989c052f"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a79a63cc29924a10d5263a"
+    }
+  },
+  "monto": 48,
+  "fechaRegistro": {
+    "$date": "2021-12-13T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b8dd2d5a32744aa1e94342"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "monto": 85,
+  "fechaRegistro": {
+    "$date": "2021-12-12T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b8e6d75a32744aa1e94343"
+  },
+  "idProducto": {
+    "_id": "0"
+  },
+  "monto": 115,
+  "fechaRegistro": {
+    "$date": "2021-12-12T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+},{
+  "_id": {
+    "$oid": "61b8e7cce3c67532d5410634"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "monto": 85,
+  "fechaRegistro": {
+    "$date": "2021-12-12T00:00:00Z"
+  },
+  "tipoMov": 1,
+  "_class": "com.proyecto1.movimientos.entity.Movimientos"
+}]

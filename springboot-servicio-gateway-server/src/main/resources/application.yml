@@ -1,0 +1,32 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: servicio-clientes
+        uri: lb://servicio-clientes
+        predicates:          - Path=/api/clientes/**
+        filters:          - StripPrefix=2
+      - id: servicio-transfer
+        uri: lb://servicio-transfer
+        predicates:
+          - Path=/api/transfer/**
+        filters:
+          - StripPrefix=2
+      - id: servicios
+        uri: lb://servicios
+        predicates:
+          - Path=/api/servicios/**
+        filters:
+          - StripPrefix=2   
+      - id: servicio-report
+        uri: lb://servicio-report
+        predicates:
+          - Path=/api/report/**
+        filters:
+          - StripPrefix=2 
+      - id: servicio-movimientos
+        uri: lb://servicio-movimientos
+        predicates:
+          - Path=/api/movimientos/**
+        filters:
+          - StripPrefix=2 

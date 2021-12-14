@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "61a6cde6f78c28147678d280"
+  },
+  "nroDoc": "12303651970",
+  "tipoDoc": "ruc",
+  "nombres": "marta",
+  "apellidos": "espinoza",
+  "celular": 954871364,
+  "razonSocial": "VENTA_ESPINOZA SAC",
+  "_class": "com.proyecto1.clientes.Entidad.Cliente"
+},{
+  "_id": {
+    "$oid": "61a6ce2cf78c28147678d281"
+  },
+  "nroDoc": " 20112273922",
+  "tipoDoc": "ruc",
+  "nombres": "roxana",
+  "apellidos": "flores",
+  "celular": 942587610,
+  "razonSocial": "VENTA_ROXANA SAC",
+  "_class": "com.proyecto1.clientes.Entidad.Cliente"
+},{
+  "_id": {
+    "$oid": "61a6ce70f78c28147678d282"
+  },
+  "nroDoc": " 20789654122",
+  "tipoDoc": "ruc",
+  "nombres": "prieto",
+  "apellidos": "rojas",
+  "celular": 999687410,
+  "razonSocial": "LIBRERIA PRIETO SAC",
+  "_class": "com.proyecto1.clientes.Entidad.Cliente"
+},{
+  "_id": {
+    "$oid": "61a6d462f78c28147678d283"
+  },
+  "nroDoc": "46983612",
+  "tipoDoc": "dni",
+  "nombres": "raul",
+  "apellidos": "romero",
+  "celular": 988475017,
+  "razonSocial": "ZAPATERIA ROMERO",
+  "_class": "com.proyecto1.clientes.Entidad.Cliente"
+},{
+  "_id": {
+    "$oid": "61a7a34af78c28147678d284"
+  },
+  "nroDoc": "54873694",
+  "tipoDoc": "dni",
+  "nombres": "Sofia",
+  "apellidos": "Paredes",
+  "celular": 956324701,
+  "razonSocial": "MEMORIAS.RAM SAC",
+  "_class": "com.proyecto1.clientes.Entidad.Cliente"
+},{
+  "_id": {
+    "$oid": "61b5661bfcbda35d2eb31692"
+  },
+  "nroDoc": "45897587",
+  "tipoDoc": "dni",
+  "nombres": "ricardina",
+  "apellidos": "guzman",
+  "celular": 985747841,
+  "razonSocial": "pollada flores",
+  "_class": "com.handler.entity.Client"
+},{
+  "_id": {
+    "$oid": "61b586111141135324fe467c"
+  },
+  "nroDoc": "45484744",
+  "tipoDoc": "dni",
+  "nombres": "maricarmen",
+  "apellidos": "sarmeinto",
+  "celular": 965741254,
+  "razonSocial": "ventas",
+  "_class": "com.proyecto1.client.Entity.Client"
+}]

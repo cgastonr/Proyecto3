@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "5d82d5b9-e004-4b87-9c31-8d81ac324b9b",
+		"name": "Transfer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9494/transfer/delete/61b851987e2d560c777fd60b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9494/transfer/delete/61b851987e2d560c777fd60b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9494",
+					"path": [
+						"transfer",
+						"delete",
+						"61b851987e2d560c777fd60b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9494/transfer/update/61b8d4984f48cc54e3165381",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\r\n        \"id\": \"61b8d4984f48cc54e3165381\",\r\n        \"tipo\": \"interno\",\r\n        \"id_cta_origen\": \"4551038245872597\",\r\n        \"id_cta_destino\": \"8347958742154796\",\r\n        \"monto\": 700.0,\r\n        \"fecha\": \"2021-11-12T00:00:00.000+00:00\",\r\n        \"idProducto\": {\r\n            \"id\": \"61a6e329cc29924a10d52635\"\r\n        }\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9494/transfer/update/61b8d4984f48cc54e3165381",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9494",
+					"path": [
+						"transfer",
+						"update",
+						"61b8d4984f48cc54e3165381"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9494/transfer/listar/61b8d4984f48cc54e3165381",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9494/transfer/listar/61b8d4984f48cc54e3165381",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9494",
+					"path": [
+						"transfer",
+						"listar",
+						"61b8d4984f48cc54e3165381"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9494/transfer/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9494/transfer/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9494",
+					"path": [
+						"transfer",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9494/transfer/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \r\n        \"tipo\":\"interno\",\r\n        \"id_cta_origen\":\"4551038245872597\",\r\n        \"id_cta_destino\":\"8347958742154796\",\r\n        \"monto\":\"700\",\r\n        \"fecha\":\"2021-11-12\",\r\n         \"idProducto\": {\r\n            \"id\": \"61a6e329cc29924a10d52635\"\r\n        }\r\n\r\n  }\r\n\r\n     ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9494/transfer/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9494",
+					"path": [
+						"transfer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

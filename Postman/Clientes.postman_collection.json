@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "86d3ed35-50ef-4851-b188-0906d1a38438",
+		"name": "Clientes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9292/clientes/delete/61a7a34af78c28147678d284",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9292/clientes/delete/61a7a34af78c28147678d284",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"clientes",
+						"delete",
+						"61a7a34af78c28147678d284"
+					]
+				},
+				"description": "Request usado para eliminar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/clientes/update/61a7a34af78c28147678d284",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"61a7a34af78c28147678d284\",\r\n    \"nroDoc\": \"54873694\",\r\n    \"tipoDoc\": \"dni\",\r\n    \"nombres\": \"Sofia\",\r\n    \"apellidos\": \"Paredes\",\r\n    \"celular\": 956324701,\r\n    \"razonSocial\": \"MEMORIAS.RAM SAC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/clientes/update/61a7a34af78c28147678d284",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"clientes",
+						"update",
+						"61a7a34af78c28147678d284"
+					]
+				},
+				"description": "Request actualiza datos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/clientes/61a7a34af78c28147678d284",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9292/clientes/61a7a34af78c28147678d284",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"clientes",
+						"61a7a34af78c28147678d284"
+					]
+				},
+				"description": "Request  listar por ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/clientes/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n       \r\n        \"nroDoc\":\"54873694\",\r\n        \"tipoDoc\":\"dni\",\r\n        \"nombres\":\"sofia\",\r\n        \"apellidos\":\"paredes\",\r\n        \"celular\":\"956324701\",\r\n        \"razonSocial\":\"MEMORIAS.RAM SAC\"\r\n\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/clientes/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"clientes",
+						"create"
+					]
+				},
+				"description": "Request crear datos Post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/clientes/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9292/clientes/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9292",
+					"path": [
+						"clientes",
+						"listar"
+					]
+				},
+				"description": "Request listar"
+			},
+			"response": []
+		}
+	]
+}

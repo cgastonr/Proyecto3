@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "61b8d4af9942fa55c30a30c4"
+  },
+  "monto_diario": 427,
+  "cuentaC_comision": 2,
+  "idProducto": {
+    "_id": {
+      "$oid": "61b8d4984f48cc54e3165381"
+    }
+  },
+  "_class": "com.report.entity.Report"
+},{
+  "_id": {
+    "$oid": "61b8db559942fa55c30a30c5"
+  },
+  "monto_diario": 178,
+  "cuentaC_comision": 2,
+  "idProducto": {
+    "_id": {
+      "$oid": "61b8da5f4f48cc54e3165382"
+    }
+  },
+  "_class": "com.report.entity.Report"
+},{
+  "_id": {
+    "$oid": "61b8dbb59942fa55c30a30c6"
+  },
+  "monto_diario": 178,
+  "cuentaC_comision": 2,
+  "idProducto": {
+    "_id": {
+      "$oid": "61b8da5f4f48cc54e3165382"
+    }
+  },
+  "_class": "com.report.entity.Report"
+}]

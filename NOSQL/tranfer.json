@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "61b8d4984f48cc54e3165381"
+  },
+  "tipo": "interno",
+  "id_cta_origen": "4551038245872597",
+  "id_cta_destino": "8347958742154796",
+  "monto": 700,
+  "fecha": {
+    "$date": "2021-11-12T00:00:00Z"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "_class": "com.transfer.transfer.entity.Transfer"
+},{
+  "_id": {
+    "$oid": "61b8da5f4f48cc54e3165382"
+  },
+  "tipo": "interno",
+  "id_cta_origen": "4551038245872597",
+  "id_cta_destino": "8347958742154796",
+  "monto": 380,
+  "fecha": {
+    "$date": "2021-12-12T00:00:00Z"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "_class": "com.transfer.transfer.entity.Transfer"
+},{
+  "_id": {
+    "$oid": "61b9233714e5144fd0c87cea"
+  },
+  "tipo": "interno",
+  "id_cta_origen": "4551038245872597",
+  "id_cta_destino": "8347958742154796",
+  "monto": 700,
+  "fecha": {
+    "$date": "2021-11-12T00:00:00Z"
+  },
+  "idProducto": {
+    "_id": {
+      "$oid": "61a6e329cc29924a10d52635"
+    }
+  },
+  "_class": "com.transfer.transfer.entity.Transfer"
+}]

@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "c1872a1a-e163-43ee-911f-82abac7096e2",
+		"name": "MovimientosCuentaBancaria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9191/movimientos/cuentabancaria/delete/61a8865d498572667ef38d52",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idProducto\": {\r\n        \"id\": \"61a701d9cc29924a10d52637\"\r\n    },\r\n    \"monto\": 140,\r\n    \"fechaRegistro\": \"2021-12-01\",\r\n    \"tipoMov\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/movimientos/cuentabancaria/delete/61a8865d498572667ef38d52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"movimientos",
+						"cuentabancaria",
+						"delete",
+						"61a8865d498572667ef38d52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/movimientos/cuentabancaria/update/61b87908065e5410989c052d",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"61b87908065e5410989c052d\",\r\n        \"idProducto\": {\r\n            \"id\": \"61a701d9cc29924a10d52637\"\r\n        },\r\n        \"monto\": 95.0,\r\n        \"fechaRegistro\": \"2021-12-11T00:00:00.000+00:00\",\r\n        \"tipoMov\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/movimientos/cuentabancaria/update/61b87908065e5410989c052d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"movimientos",
+						"cuentabancaria",
+						"update",
+						"61b87908065e5410989c052d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/movimientos/cuentabancaria/61b87643065e5410989c052b",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/movimientos/cuentabancaria/61b87643065e5410989c052b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"movimientos",
+						"cuentabancaria",
+						"61b87643065e5410989c052b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/movimientos/cuentabancaria/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/movimientos/cuentabancaria/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"movimientos",
+						"cuentabancaria",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9191/movimientos/cuentabancaria/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idProducto\": {\r\n        \"id\": \"61a6e329cc29924a10d52635\"\r\n    },\r\n    \"monto\": 85,\r\n    \"fechaRegistro\": \"2021-12-12\",\r\n    \"tipoMov\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/movimientos/cuentabancaria/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"movimientos",
+						"cuentabancaria",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

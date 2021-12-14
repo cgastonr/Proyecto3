@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "61b69abc2718d92cb17a7d92"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1200,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b6a3ad2718d92cb17a7d93"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b7acc5908a69695ec82c9e"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b7acee908a69695ec82c9f"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b7acf1908a69695ec82ca0"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b7ad0d414d0b1ccf138fd6"
+  },
+  "tipo": "dni",
+  "montoDesembolso": 1000,
+  "fechaapertura": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6d462f78c28147678d283"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+},{
+  "_id": {
+    "$oid": "61b8701442f3b46b50590640"
+  },
+  "tipo": "ruc",
+  "montoDesembolso": 1560,
+  "fechaapertura": {
+    "$date": "2021-11-10T00:00:00Z"
+  },
+  "cliente": {
+    "_id": {
+      "$oid": "61a6cde6f78c28147678d280"
+    }
+  },
+  "_class": "com.proyecto1.servicios.Entidad.Credito"
+}]
